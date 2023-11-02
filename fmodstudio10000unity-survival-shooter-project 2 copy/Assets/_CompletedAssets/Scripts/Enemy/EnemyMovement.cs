@@ -20,6 +20,12 @@ namespace CompleteProject
             nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
         }
 
+        void PlaySound(string path)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
+            
+        }
+
 
         void Update ()
         {

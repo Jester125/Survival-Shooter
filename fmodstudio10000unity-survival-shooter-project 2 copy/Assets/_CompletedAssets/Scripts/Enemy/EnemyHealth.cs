@@ -17,6 +17,8 @@ namespace CompleteProject
         bool isSinking;                             // Whether the enemy has started sinking through the floor.
 
 
+        private FMODUnity.StudioEventEmitter eventEmitterRef;
+
         void Awake ()
         {
             // Setting up the references.
@@ -24,6 +26,9 @@ namespace CompleteProject
             
             hitParticles = GetComponentInChildren <ParticleSystem> ();
             capsuleCollider = GetComponent <CapsuleCollider> ();
+
+
+            eventEmitterRef = GetComponent<FMODUnity.StudioEventEmitter>();
 
             // Setting the current health when the enemy first spawns.
             currentHealth = startingHealth;
@@ -49,6 +54,7 @@ namespace CompleteProject
                 return;
 
             // Play the hurt sound effect. FMOD Hurt!!!
+            eventEmitterRef.Play();
 
             // Reduce the current health by the amount of damage sustained.
             currentHealth -= amount;

@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/jesse/Documents/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy
+/Volumes/500GB/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50795
-Successfully changed project path to: /Users/jesse/Documents/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy
-/Users/jesse/Documents/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy
+57731
+Successfully changed project path to: /Volumes/500GB/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy
+/Volumes/500GB/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,15 +56,15 @@ Successfully changed project path to: /Users/jesse/Documents/GitHub/Survival-Sho
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4791152128] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 624008824 [EditorId] 624008824 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4678196736] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 3996544622 [EditorId] 3996544622 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4791152128] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 624008824 [EditorId] 624008824 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4678196736] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 3996544622 [EditorId] 3996544622 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 32.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1402.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/jesse/Documents/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy/Assets
+[Subsystems] Discovering subsystems at path /Volumes/500GB/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
 Metal devices available: 1
@@ -75,44 +75,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56267
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001964 seconds.
-- Loaded All Assemblies, in  0.618 seconds
+Registered in 0.004698 seconds.
+- Loaded All Assemblies, in  0.750 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.524 seconds
-Domain Reload Profiling: 1142ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.564 seconds
+Domain Reload Profiling: 1314ms
+	BeginReloadAssembly (203ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (273ms)
-		LoadAssemblies (173ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (204ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
-			TypeCache.Refresh (266ms)
-				TypeCache.ScanAssembly (244ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (300ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (524ms)
+	FinalizeReload (565ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (405ms)
+		SetupLoadedEditorAssemblies (426ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (16ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (289ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,115 +121,53 @@ Domain Reload Profiling: 1142ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.493 seconds
-Refreshing native plugins compatible for Editor in 14.64 ms, found 4 plugins.
+- Loaded All Assemblies, in  3.485 seconds
+Refreshing native plugins compatible for Editor in 849.76 ms, found 4 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.247 seconds
-Domain Reload Profiling: 2739ms
-	BeginReloadAssembly (222ms)
+- Finished resetting the current domain, in  1.314 seconds
+Domain Reload Profiling: 4799ms
+	BeginReloadAssembly (333ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (1112ms)
-		LoadAssemblies (639ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (196ms)
+	LoadAllAssembliesAndSetupDomain (2845ms)
+		LoadAssemblies (2398ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (559ms)
-			TypeCache.Refresh (500ms)
-				TypeCache.ScanAssembly (470ms)
-			ScanForSourceGeneratedMonoScriptInfo (48ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1248ms)
+		AnalyzeDomain (609ms)
+			TypeCache.Refresh (554ms)
+				TypeCache.ScanAssembly (523ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1315ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (940ms)
+		SetupLoadedEditorAssemblies (982ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (487ms)
-			ProcessInitializeOnLoadMethodAttributes (335ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (535ms)
+			ProcessInitializeOnLoadMethodAttributes (325ms)
 			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (10ms)
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 20.37 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 15.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2656 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 121 unused Assets / (100.0 KB). Loaded Objects now: 3045.
-Memory consumption went from 215.8 MB to 215.7 MB.
-Total: 11.060287 ms (FindLiveObjects: 0.290469 ms CreateObjectMapping: 0.292955 ms MarkObjects: 10.258130 ms  DeleteObjects: 0.217480 ms)
+Unloading 121 unused Assets / (151.6 KB). Loaded Objects now: 3046.
+Memory consumption went from 215.9 MB to 215.8 MB.
+Total: 14.004889 ms (FindLiveObjects: 0.685839 ms CreateObjectMapping: 0.329056 ms MarkObjects: 12.715424 ms  DeleteObjects: 0.271960 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  2.104 seconds
-Refreshing native plugins compatible for Editor in 22.87 ms, found 4 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.171 seconds
-Domain Reload Profiling: 4274ms
-	BeginReloadAssembly (318ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (125ms)
-	RebuildCommonClasses (128ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (1552ms)
-		LoadAssemblies (740ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (914ms)
-			TypeCache.Refresh (902ms)
-				TypeCache.ScanAssembly (872ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2172ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1527ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
-			SetLoadedEditorAssemblies (12ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (248ms)
-			ProcessInitializeOnLoadAttributes (664ms)
-			ProcessInitializeOnLoadMethodAttributes (568ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 32.79 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2650 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 109 unused Assets / (76.7 KB). Loaded Objects now: 3048.
-Memory consumption went from 216.2 MB to 216.2 MB.
-Total: 17.489515 ms (FindLiveObjects: 0.432494 ms CreateObjectMapping: 0.391984 ms MarkObjects: 16.451714 ms  DeleteObjects: 0.211289 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -244,9 +182,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 347260.279980 seconds.
-  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
-  artifactKey: Guid(2057ed9878fd04a8b86e67c87bd1293a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(2057ed9878fd04a8b86e67c87bd1293a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7759da6a59b22c7e01c467a331d5628') in 0.122233 seconds
+  Time since last request: 363491.872743 seconds.
+  path: Assets/Audio/Mixers/MasterMixer.mixer
+  artifactKey: Guid(5b84db49d40ea449aa4f3e3bd229ab5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Mixers/MasterMixer.mixer using Guid(5b84db49d40ea449aa4f3e3bd229ab5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d98dd096bee1ed48c7b2bcc992f0db') in 0.044578 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Audio/Effects/ZomBunny Death.wav
+  artifactKey: Guid(1d3bfb9269f136947bf8ac164cace1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/ZomBunny Death.wav using Guid(1d3bfb9269f136947bf8ac164cace1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf1136836636af71592bec25e042bb5') in 0.549857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Audio/Mixers/SoundEffects.mixer
+  artifactKey: Guid(8434b04884c414ac6b468e10945685e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Mixers/SoundEffects.mixer using Guid(8434b04884c414ac6b468e10945685e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb65583bc00b6677ec8d811421732d83') in 0.075182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Audio/Effects/Player Death.wav
+  artifactKey: Guid(d36a393bca4582043982db9089e1694f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/Player Death.wav using Guid(d36a393bca4582043982db9089e1694f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb40964ea13ff512705079edb391135') in 0.123994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Audio/Effects/Player Hurt.wav
+  artifactKey: Guid(9922a12f34d0a084aab32de985459723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/Player Hurt.wav using Guid(9922a12f34d0a084aab32de985459723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c285d9b706ef59f9892e31390935e820') in 0.143538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Audio/Mixers
+  artifactKey: Guid(ead85dd6da8be6947a4289d8964f0e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Mixers using Guid(ead85dd6da8be6947a4289d8964f0e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3abf2aef5dda56d0744c0d339a254e4') in 0.020108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Audio/Effects/Hellephant Death.wav
+  artifactKey: Guid(8c615fd0429f34edf85539d70279360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Effects/Hellephant Death.wav using Guid(8c615fd0429f34edf85539d70279360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ade879fa8c90176072f020809580f2f') in 0.137283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
