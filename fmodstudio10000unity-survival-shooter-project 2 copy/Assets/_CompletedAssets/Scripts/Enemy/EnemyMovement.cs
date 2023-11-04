@@ -10,6 +10,13 @@ namespace CompleteProject
         EnemyHealth enemyHealth;        // Reference to this enemy's health.
         UnityEngine.AI.NavMeshAgent nav;               // Reference to the nav mesh agent.
 
+        // another way to do it 
+        //public FMODUnity.EventReference FMODPath;
+        //FMOD.Studio.EventInstance sound = FMODUnity.RuntimeManager.CreateInstance(FMODPath);
+        //sound.setParamterByID(parameters.....)
+        //sound.start();
+        //sound.release();
+
 
         void Awake ()
         {

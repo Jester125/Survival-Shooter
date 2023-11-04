@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{3613B104-BF45-4245-6C13-983001731586}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="12c0a5de-72a2-43e3-b23f-8e1d40287038" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_CompletedAssets/Scripts/Enemy/EnemyHealth.cs">
+    <Files>
+      <File FileName="Assets/_CompletedAssets/Scripts/Enemy/EnemyMovement.cs" Line="27" Column="65" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Enemy/EnemyHealth.cs" Line="34" Column="44" />
+      <File FileName="Assets/_CompletedAssets/Scripts/Player/PlayerShooting.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="fmodstudio10000unity-survival-shooter-project 2 copy">
+            <Node name="Assets" expanded="True">
+              <Node name="_CompletedAssets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Enemy" expanded="True" />
+                  <Node name="Player" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

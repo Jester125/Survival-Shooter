@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{07587aea-ba90-447d-acde-a14730c4d890}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{8e562ecb-0c91-4883-b20b-c299da74c8da}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{7adcc254-9ce7-412d-a590-bc00ed860a42}">
 		<relationship name="masterBus">
@@ -89,7 +92,6 @@
 		<property name="length">
 			<value>1.268390022675737</value>
 		</property>
-		<property name="name" />
 		<relationship name="fadeInCurve">
 			<destination>{6adb4c2e-6caf-4650-90fa-c6497ff0cf86}</destination>
 		</relationship>

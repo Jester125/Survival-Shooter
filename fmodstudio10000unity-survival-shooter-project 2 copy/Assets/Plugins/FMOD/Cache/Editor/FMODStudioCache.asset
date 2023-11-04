@@ -15,14 +15,70 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 7001669283489527494}
   - {fileID: 8164602547422739281}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: 2192382433677549077}
+  - {fileID: 946440805745232998}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8164602547422739281}
   StringsBanks:
   - {fileID: 7001669283489527494}
-  cacheTime: 638343581340000000
+  cacheTime: 638346270260000000
   cacheVersion: 131608
+--- !u!114 &946440805745232998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemies/Hellephant/Hellephant_Death
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemies/Hellephant/Hellephant_Death
+  Guid:
+    Data1: -1288628276
+    Data2: 1236352523
+    Data3: -167163483
+    Data4: 1358788784
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1268
+--- !u!114 &2192382433677549077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemies/Hellephant/Hellephant_Hurt
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemies/Hellephant/Hellephant_Hurt
+  Guid:
+    Data1: 130112157
+    Data2: 1258442123
+    Data3: -2104947296
+    Data4: 1518360515
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 357
 --- !u!114 &7001669283489527494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38,10 +94,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638343581340000000
+  lastModified: 638346270260000000
   FileSizes:
   - Name: Desktop
-    Value: 712
+    Value: 840
   Exists: 1
 --- !u!114 &8164602547422739281
 MonoBehaviour:
@@ -58,8 +114,8 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638343581340000000
+  lastModified: 638346270260000000
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 22848
   Exists: 1
