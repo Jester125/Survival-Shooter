@@ -55,13 +55,14 @@ namespace CompleteProject
 
             // Play the hurt sound effect. FMOD Hurt!!!
             eventEmitterRef.Play();
+            
 
             // Reduce the current health by the amount of damage sustained.
             currentHealth -= amount;
             
             // Set the position of the particle system to where the hit was sustained.
             hitParticles.transform.position = hitPoint;
-
+                       
             // And play the particles.
             hitParticles.Play();
 
@@ -89,9 +90,19 @@ namespace CompleteProject
             // FMod play death clip!!!
         }
 
-
-        public void StartSinking ()
+        public void PlaySound()
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/Enemies/Hellephant/Hellephant_Death", GetComponent<Transform>().position);
+            Debug.Log("playsound");
+
+        }
+
+        public void StartSinking (string sound)
+        {
+
+            FMODUnity.RuntimeManager.PlayOneShot(sound, GetComponent<Transform>().position);
+            Debug.Log("playsound");
+
             // Find and disable the Nav Mesh Agent.
             GetComponent <UnityEngine.AI.NavMeshAgent> ().enabled = false;
 

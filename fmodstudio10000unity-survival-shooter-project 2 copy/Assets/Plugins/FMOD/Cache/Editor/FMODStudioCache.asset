@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1874813524540591443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemies/ZomBear/ZomBear_Hurt
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemies/ZomBear/ZomBear_Hurt
+  Guid:
+    Data1: -1783698369
+    Data2: 1083015907
+    Data3: -1037928801
+    Data4: -322291737
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 387
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18,12 +45,14 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 2192382433677549077}
   - {fileID: 946440805745232998}
+  - {fileID: -1874813524540591443}
+  - {fileID: 1356203915727951709}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8164602547422739281}
   StringsBanks:
   - {fileID: 7001669283489527494}
-  cacheTime: 638346270260000000
+  cacheTime: 638347053480000000
   cacheVersion: 131608
 --- !u!114 &946440805745232998
 MonoBehaviour:
@@ -52,6 +81,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1268
+--- !u!114 &1356203915727951709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemies/ZomBear/ZomBear_Death
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemies/ZomBear/ZomBear_Death
+  Guid:
+    Data1: 998262472
+    Data2: 1249319737
+    Data3: -953107523
+    Data4: 868712880
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 882
 --- !u!114 &2192382433677549077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,10 +150,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638346270260000000
+  lastModified: 638347053480000000
   FileSizes:
   - Name: Desktop
-    Value: 840
+    Value: 950
   Exists: 1
 --- !u!114 &8164602547422739281
 MonoBehaviour:
@@ -114,8 +170,8 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638346270260000000
+  lastModified: 638347053480000000
   FileSizes:
   - Name: Desktop
-    Value: 22848
+    Value: 40672
   Exists: 1
