@@ -26,7 +26,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 387
+  Length: 230
+--- !u!114 &-1251253385694336081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music
+  Guid:
+    Data1: 781562027
+    Data2: 1279399156
+    Data3: 142408839
+    Data4: -1872499785
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36338
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,12 +74,14 @@ MonoBehaviour:
   - {fileID: 946440805745232998}
   - {fileID: -1874813524540591443}
   - {fileID: 1356203915727951709}
+  - {fileID: 6607214792718631535}
+  - {fileID: -1251253385694336081}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8164602547422739281}
   StringsBanks:
   - {fileID: 7001669283489527494}
-  cacheTime: 638347053480000000
+  cacheTime: 638358142580000000
   cacheVersion: 131608
 --- !u!114 &946440805745232998
 MonoBehaviour:
@@ -80,7 +109,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1268
+  Length: 2500
 --- !u!114 &1356203915727951709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +136,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 882
+  Length: 1650
 --- !u!114 &2192382433677549077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,7 +163,34 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 357
+  Length: 2160
+--- !u!114 &6607214792718631535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Player_Gunshot
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Player_Gunshot
+  Guid:
+    Data1: -1907633838
+    Data2: 1223651403
+    Data3: -615251808
+    Data4: -1158008630
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1409
 --- !u!114 &7001669283489527494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,10 +206,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638347053480000000
+  lastModified: 638358142580000000
   FileSizes:
   - Name: Desktop
-    Value: 950
+    Value: 1068
   Exists: 1
 --- !u!114 &8164602547422739281
 MonoBehaviour:
@@ -170,8 +226,8 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638347053480000000
+  lastModified: 638358142580000000
   FileSizes:
   - Name: Desktop
-    Value: 40672
+    Value: 880928
   Exists: 1

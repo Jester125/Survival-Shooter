@@ -397,6 +397,7 @@
 "Assets/_CompletedAssets/Scripts/Helpers/VolumeHandler.cs"
 "Assets/_CompletedAssets/Scripts/Managers/EnemyManager.cs"
 "Assets/_CompletedAssets/Scripts/Managers/GameOverManager.cs"
+"Assets/_CompletedAssets/Scripts/Managers/MusicControl.cs"
 "Assets/_CompletedAssets/Scripts/Managers/PauseManager.cs"
 "Assets/_CompletedAssets/Scripts/Managers/ScoreManager.cs"
 "Assets/_CompletedAssets/Scripts/Player/PlayerHealth.cs"

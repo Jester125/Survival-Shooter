@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2e48b738-2aee-4ac4-9a53-b92d21e60c69}">
+		<property name="assetPath">
+			<value>Samples/131944-SeaLion-Snort-Indoors-Fienup-001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.8631519274376416</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f337d7c0-216d-48f6-958c-384629663d04}</destination>
+		</relationship>
+	</object>
+</objects>

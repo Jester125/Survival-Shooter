@@ -85,6 +85,7 @@
     <Compile Include="Assets/_CompletedAssets/Scripts/Audio/MixLevels.cs" />
     <Compile Include="Assets/_CompletedAssets/Scripts/Helpers/RandomAnimationPoint.cs" />
     <Compile Include="Assets/Scripts/Managers/ScoreManager.cs" />
+    <Compile Include="Assets/_CompletedAssets/Scripts/Managers/MusicControl.cs" />
     <Compile Include="Assets/Scripts/Managers/EnemyManager.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/_CompletedAssets/MobileInput/Scripts/CrossPlatformInputManager.cs" />

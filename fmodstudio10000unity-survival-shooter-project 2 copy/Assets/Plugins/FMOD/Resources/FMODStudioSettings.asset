@@ -554,7 +554,7 @@ MonoBehaviour:
   sourceProjectPath: ../Survival Shooter Fmod/Survival Shooter Fmod.fspro
   sourceBankPath: ../Survival Shooter Fmod/Build
   sourceBankPathUnformatted: 
-  BankRefreshCooldown: 5
+  BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
   AutomaticEventLoading: 1
   BankLoadType: 0

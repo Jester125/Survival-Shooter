@@ -21,6 +21,7 @@ namespace CompleteProject
 		public Light faceLight;								// Duh
         float effectsDisplayTime = 0.2f;                // The proportion of the timeBetweenBullets that the effects will display for.
 
+        private FMODUnity.StudioEventEmitter eventEmitterRef;
 
         void Awake ()
         {
@@ -32,7 +33,9 @@ namespace CompleteProject
             gunLine = GetComponent <LineRenderer> ();
             
             gunLight = GetComponent<Light> ();
-			//faceLight = GetComponentInChildren<Light> ();
+            //faceLight = GetComponentInChildren<Light> ();
+
+            eventEmitterRef = GetComponent<FMODUnity.StudioEventEmitter>();
         }
 
 
@@ -81,6 +84,7 @@ namespace CompleteProject
 
             // Play the gun shot audioclip.
             // FMod Player Shoot
+            eventEmitterRef.Play();
 
             // Enable the lights.
             gunLight.enabled = true;

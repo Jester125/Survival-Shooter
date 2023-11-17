@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{909f748f-e23d-4309-998e-d2c8785fad4d}">
 		<property name="assetPath">
-			<value>Hellephant Hurt.wav</value>
+			<value>Effects/Hellephant Hurt.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

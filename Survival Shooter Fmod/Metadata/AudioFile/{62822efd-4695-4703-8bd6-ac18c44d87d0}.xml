@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{62822efd-4695-4703-8bd6-ac18c44d87d0}">
+		<property name="assetPath">
+			<value>222833-Otter-moan-pitch-variations-02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>192</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.3725000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f337d7c0-216d-48f6-958c-384629663d04}</destination>
+		</relationship>
+	</object>
+</objects>

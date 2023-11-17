@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{168a4a01-156b-4459-b7d2-03c5d697d2c0}">
+		<property name="name">
+			<value>Squeek</value>
+		</property>
+		<relationship name="folder">
+			<destination>{53b6cdf2-dab9-476a-b900-344f6d512722}</destination>
+		</relationship>
+	</object>
+</objects>
