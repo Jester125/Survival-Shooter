@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_CompletedAssets/Scenes/Survival shooter FMod.unity
+- path: Assets/_CompletedAssets/Scenes/SurvivalShooter.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

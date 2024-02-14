@@ -383,6 +383,11 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -analyzer:"/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorNode.cs"
+"Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorUtil.cs"
+"Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorWindow.cs"
+"Assets/DialogueEditor/Assets/Scripts/Editor/NPCConversationEditor.cs"
+"Assets/DialogueEditor/Assets/Scripts/UI/Editor/ConversationManagerEditor.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 "Assets/_CompletedAssets/MobileInput/Scripts/Editor/CrossPlatformInputInitialize.cs"
 -langversion:9.0

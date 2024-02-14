@@ -103,7 +103,7 @@ namespace CompleteProject
         public void RestartLevel ()
         {
             // Reload the level that is currently loaded.
-            SceneManager.LoadScene (0);
+            SceneManager.LoadScene (1);
         }
     }
 }

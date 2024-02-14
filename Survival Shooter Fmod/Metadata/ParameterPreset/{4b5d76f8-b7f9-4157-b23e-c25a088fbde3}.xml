@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4b5d76f8-b7f9-4157-b23e-c25a088fbde3}">
+		<property name="name">
+			<value>AtmosVol</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9b425d02-788f-4c9c-b03a-6ed4aea997f6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f08e063e-9fe9-4282-8415-20549d7bc204}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f08e063e-9fe9-4282-8415-20549d7bc204}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.14000000059604645</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

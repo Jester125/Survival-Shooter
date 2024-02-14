@@ -19,7 +19,9 @@ public class PlayerHealth : MonoBehaviour
     AudioSource playerAudio;
     PlayerMovement playerMovement;
     //PlayerShooting playerShooting;
-    bool isDead;
+
+    public bool isDead;
+
     bool damaged;
 
 
@@ -82,6 +84,6 @@ public class PlayerHealth : MonoBehaviour
 
     public void RestartLevel ()
     {
-        SceneManager.LoadScene (0);
+        SceneManager.LoadScene (1);
     }
 }

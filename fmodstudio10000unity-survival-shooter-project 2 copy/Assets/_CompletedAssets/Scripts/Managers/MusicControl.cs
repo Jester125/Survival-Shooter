@@ -6,14 +6,19 @@ public class MusicControl : MonoBehaviour
 {
 
 
+ 
+    //public PlayerHealth playerScript;
 
 
     //[FMODUnity.EventRef]
-    public string music = "event:/Music/Music";
-    public string breakBeat = "event:/Music/Break";
+    public string atmos = "event:/Atmos/Atmos";
+    public string pads = "event:/Music/Pads/Pads";
+    public string drums = "event:/Music/Drums";
 
-    FMOD.Studio.EventInstance musicEv;
-    FMOD.Studio.EventInstance breakEv;
+
+    FMOD.Studio.EventInstance AtmosEv;
+    FMOD.Studio.EventInstance PadsEv;
+    FMOD.Studio.EventInstance DrumsEv;
 
 
 
@@ -21,17 +26,37 @@ public class MusicControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        musicEv = FMODUnity.RuntimeManager.CreateInstance(music);
-        breakEv = FMODUnity.RuntimeManager.CreateInstance(breakBeat);
+        AtmosEv = FMODUnity.RuntimeManager.CreateInstance(atmos);
+        PadsEv = FMODUnity.RuntimeManager.CreateInstance(pads);
+        DrumsEv = FMODUnity.RuntimeManager.CreateInstance(drums);
 
-        musicEv.start();
-        breakEv.start();
+        AtmosEv.start();
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("AtmosVol", 1);
+        StartCoroutine("FadeIn");
+
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //if (playerScript.isDead == true)
+        //{
+        //    AtmosEv.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        //    PadsEv.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        //    DrumsEv.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        //}
+    }
+
+    IEnumerator FadeIn()
+    {
+       // yield return new WaitForSeconds(2);
+        EventManager.OnTimerStart();
+        yield return new WaitForSeconds(20);
+        PadsEv.start();
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("PadsVol", 1);
+        yield return new WaitForSeconds(20);
+        DrumsEv.start();
     }
 }
