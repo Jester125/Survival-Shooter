@@ -16,7 +16,8 @@ public class MinutesLeft : MonoBehaviour
     {
         timerText = GetComponent<TMP_Text>();
         anim = gameObject.GetComponent<Animator>();
-        anim.Play("minutesLeft.Fade", 0, 0f);  
+        anim.Play("minutesLeft.Fade", 0, 0.0f);
+
     }
 
     // Update is called once per frame
