@@ -93,15 +93,23 @@ namespace CompleteProject
         public void PlaySound()
         {
             FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/Enemies/Hellephant/Hellephant_Death", GetComponent<Transform>().position);
-            Debug.Log("playsound");
+            
 
         }
+        public void Step()
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/Enemies/Hellephant/Hellephant_Step", GetComponent<Transform>().position);
+
+
+        }
+
+
 
         public void StartSinking (string sound)
         {
 
             FMODUnity.RuntimeManager.PlayOneShot(sound, GetComponent<Transform>().position);
-            Debug.Log("playsound");
+            
 
             // Find and disable the Nav Mesh Agent.
             GetComponent <UnityEngine.AI.NavMeshAgent> ().enabled = false;

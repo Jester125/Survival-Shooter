@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6e0cc5f8-e09d-4571-aeb3-8070f3fc8d60}">
+		<property name="assetPath">
+			<value>698768__ienba__game-pickup.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>11</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f337d7c0-216d-48f6-958c-384629663d04}</destination>
+		</relationship>
+	</object>
+</objects>

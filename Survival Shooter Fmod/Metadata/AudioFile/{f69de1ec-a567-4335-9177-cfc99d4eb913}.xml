@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f69de1ec-a567-4335-9177-cfc99d4eb913}">
+		<property name="assetPath">
+			<value>492134-FEETHmn-SFTHWD-Slipper_Soft_Sole_Reduced_Low_End_Run-PPA-TSC-MONO-MKH60 [2024-02-20 183114].wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.28126984126984128</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f337d7c0-216d-48f6-958c-384629663d04}</destination>
+		</relationship>
+	</object>
+</objects>

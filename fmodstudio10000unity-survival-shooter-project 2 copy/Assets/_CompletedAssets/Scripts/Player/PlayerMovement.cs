@@ -45,6 +45,12 @@ namespace CompleteProject
             Animating (h, v);
         }
 
+        public void PlaySound()
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/Player/Footstep", GetComponent<Transform>().position);
+            
+
+        }
 
         void Move (float h, float v)
         {

@@ -14,11 +14,15 @@ public class MusicControl : MonoBehaviour
     public string atmos = "event:/Atmos/Atmos";
     public string pads = "event:/Music/Pads/Pads";
     public string drums = "event:/Music/Drums";
+    public string morning = "event:/Atmos/Morning";
+    public string dish = "event:/Atmos/Dish";
+    
 
-
+    FMOD.Studio.EventInstance MorningEv;
     FMOD.Studio.EventInstance AtmosEv;
     FMOD.Studio.EventInstance PadsEv;
     FMOD.Studio.EventInstance DrumsEv;
+    FMOD.Studio.EventInstance DishEv;
 
 
 
@@ -29,12 +33,18 @@ public class MusicControl : MonoBehaviour
         AtmosEv = FMODUnity.RuntimeManager.CreateInstance(atmos);
         PadsEv = FMODUnity.RuntimeManager.CreateInstance(pads);
         DrumsEv = FMODUnity.RuntimeManager.CreateInstance(drums);
+        MorningEv = FMODUnity.RuntimeManager.CreateInstance(morning);
+        DishEv = FMODUnity.RuntimeManager.CreateInstance(dish);
 
         AtmosEv.start();
+        PadsEv.start();
+        MorningEv.start();
+        DishEv.start();
+        DrumsEv.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("AtmosVol", 1);
-        StartCoroutine("FadeIn");
+        EventManager.OnTimerStart();
 
-        
+
 
     }
 
@@ -49,14 +59,19 @@ public class MusicControl : MonoBehaviour
         //}
     }
 
-    IEnumerator FadeIn()
+    public void PlayDrums()
     {
-       // yield return new WaitForSeconds(2);
-        EventManager.OnTimerStart();
-        yield return new WaitForSeconds(20);
-        PadsEv.start();
-        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("PadsVol", 1);
-        yield return new WaitForSeconds(20);
         DrumsEv.start();
+        Debug.Log("playing drums");
     }
+    public void StopDrums()
+    {
+        DrumsEv.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+    
+    void Destroy()
+    {
+
+    }
+    
 }

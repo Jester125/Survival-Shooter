@@ -1,5 +1,56 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9193649679894935242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/ScorePickup
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/ScorePickup
+  Guid:
+    Data1: 880183669
+    Data2: 1199763468
+    Data3: 485481648
+    Data4: 2001619367
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &-8476986187412222265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Pads/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 4
+  ID:
+    data1: 4150470725
+    data2: 922176865
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6041737536571348978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21,12 +72,13 @@ MonoBehaviour:
   Banks:
   - {fileID: 8164602547422739281}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -3514464682866132710}
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 11788
 --- !u!114 &-5847482627731263880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,6 +99,30 @@ MonoBehaviour:
   ID:
     data1: 3764770836
     data2: 266491230
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5100471195298686794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums/BreakFade
+  m_EditorClassIdentifier: 
+  Name: BreakFade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1466294790
+    data2: 306832640
   Type: 0
   IsGlobal: 1
   Labels: []
@@ -99,6 +175,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-4209517734539025003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Positional/ScoreHum
+  m_EditorClassIdentifier: 
+  Path: event:/Positional/ScoreHum
+  Guid:
+    Data1: -946120487
+    Data2: 1215042843
+    Data3: -1222664014
+    Data4: 1039982082
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15696
 --- !u!114 &-3874072381082494721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +280,54 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-3561038268605065640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Morning
+  m_EditorClassIdentifier: 
+  Name: Morning
+  StudioPath: parameter:/Morning
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494491852
+    data2: 1820992798
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3514464682866132710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Dish/AtmosVol
+  m_EditorClassIdentifier: 
+  Name: AtmosVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3764770836
+    data2: 266491230
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-2862200316576566216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,6 +352,84 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-2655910388262409198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Enemies/Hellephant/Hellephant_Step
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Enemies/Hellephant/Hellephant_Step
+  Guid:
+    Data1: -863451912
+    Data2: 1222795632
+    Data3: -235896952
+    Data4: 1825328178
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2500
+--- !u!114 &-2394569621996507231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Morning/Morning
+  m_EditorClassIdentifier: 
+  Name: Morning
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494491852
+    data2: 1820992798
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2206469097906956639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ClockChimes
+  m_EditorClassIdentifier: 
+  Path: event:/ClockChimes
+  Guid:
+    Data1: -799888890
+    Data2: 1144176583
+    Data3: -605580353
+    Data4: -1683967262
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 25983
 --- !u!114 &-1686948345466096424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,6 +454,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-1424966773268963503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: parameter:/Parameter 1
+  Min: 0
+  Max: 4
+  Default: 4
+  ID:
+    data1: 4150470725
+    data2: 922176865
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-754398258400731075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,7 +499,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 8164602547422739281}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -283,16 +536,27 @@ MonoBehaviour:
   - {fileID: 1568722012719706991}
   - {fileID: -3874072381082494721}
   - {fileID: 8663967297767602313}
+  - {fileID: -2206469097906956639}
+  - {fileID: 2702256457415756670}
+  - {fileID: 714815392373728429}
+  - {fileID: 2436362758314059774}
+  - {fileID: -2655910388262409198}
+  - {fileID: -9193649679894935242}
+  - {fileID: -4209517734539025003}
   EditorParameters:
   - {fileID: -5847482627731263880}
   - {fileID: -2862200316576566216}
   - {fileID: -4742744271324178043}
   - {fileID: -1686948345466096424}
+  - {fileID: -1424966773268963503}
+  - {fileID: 5068017853912652075}
+  - {fileID: -3561038268605065640}
+  - {fileID: 5395650336412038912}
   MasterBanks:
   - {fileID: 8164602547422739281}
   StringsBanks:
   - {fileID: 7001669283489527494}
-  cacheTime: 638435306244500000
+  cacheTime: 638450634985200000
   cacheVersion: 131608
 --- !u!114 &333471329127684888
 MonoBehaviour:
@@ -317,10 +581,39 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 2568419656472120410}
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
+--- !u!114 &714815392373728429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Effects/Player/Footstep
+  m_EditorClassIdentifier: 
+  Path: event:/Effects/Player/Footstep
+  Guid:
+    Data1: -644319961
+    Data2: 1169265457
+    Data3: 416441762
+    Data4: -96554699
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4181863919289066943}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 343
 --- !u!114 &1236214119509464712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,6 +692,85 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1650
+--- !u!114 &2436362758314059774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Atmos/Morning
+  m_EditorClassIdentifier: 
+  Path: event:/Atmos/Morning
+  Guid:
+    Data1: 1780587277
+    Data2: 1228693189
+    Data3: -2071646310
+    Data4: 293314888
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2394569621996507231}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 90469
+--- !u!114 &2568419656472120410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Scutter/AtmosVol
+  m_EditorClassIdentifier: 
+  Name: AtmosVol
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3764770836
+    data2: 266491230
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2702256457415756670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Transition
+  m_EditorClassIdentifier: 
+  Path: event:/Transition
+  Guid:
+    Data1: -665712438
+    Data2: 1339356424
+    Data3: -201119870
+    Data4: -1460753339
+  Banks:
+  - {fileID: 8164602547422739281}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 21000
 --- !u!114 &2953272655660118115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,6 +825,78 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 72069
+--- !u!114 &4181863919289066943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footstep/Carpet
+  m_EditorClassIdentifier: 
+  Name: Carpet
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 552067834
+    data2: 1043025831
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5068017853912652075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Carpet
+  m_EditorClassIdentifier: 
+  Name: Carpet
+  StudioPath: parameter:/Carpet
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 552067834
+    data2: 1043025831
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5395650336412038912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BreakFade
+  m_EditorClassIdentifier: 
+  Name: BreakFade
+  StudioPath: parameter:/BreakFade
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1466294790
+    data2: 306832640
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &6154532747905190017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,6 +922,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: -5040596628099134502}
+  - {fileID: -8476986187412222265}
   MinDistance: 1
   MaxDistance: 20
   Length: 33000
@@ -496,10 +941,34 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638435306244500000
+  lastModified: 638450634985200000
   FileSizes:
   - Name: Desktop
-    Value: 1906
+    Value: 2362
+  Exists: 1
+--- !u!114 &7504923512529955717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Atmos/Morning
+  m_EditorClassIdentifier: 
+  Name: Morning
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 494491852
+    data2: 1820992798
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &8150838269353359452
 MonoBehaviour:
@@ -524,7 +993,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -5100471195298686794}
   MinDistance: 1
   MaxDistance: 20
   Length: 160000
@@ -543,10 +1013,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638435306244500000
+  lastModified: 638450634984700000
   FileSizes:
   - Name: Desktop
-    Value: 12547104
+    Value: 15364768
   Exists: 1
 --- !u!114 &8441889812499295123
 MonoBehaviour:
@@ -655,6 +1125,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters:
   - {fileID: 1236214119509464712}
+  - {fileID: 7504923512529955717}
   MinDistance: 1
   MaxDistance: 20
   Length: 75002

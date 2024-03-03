@@ -30,6 +30,7 @@ public class DialogueMusic : MonoBehaviour
 
     public void NextScene()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Transition");
         fadeEffect.SetActive(true);
         StartCoroutine("Waitfor5");
     }

@@ -20,6 +20,7 @@ namespace CompleteProject
                                         // Reference to the AudioSource component.
         PlayerMovement playerMovement;                              // Reference to the player's movement.
         PlayerShooting playerShooting;                              // Reference to the PlayerShooting script.
+        public PickupManager pickupScript;
         bool isDead;                                                // Whether the player is dead.
         bool damaged;                                               // True when the player gets damaged.
 
@@ -34,6 +35,8 @@ namespace CompleteProject
 
             // Set the initial health of the player.
             currentHealth = startingHealth;
+
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Carpet", 0);
         }
 
 
@@ -104,6 +107,31 @@ namespace CompleteProject
         {
             // Reload the level that is currently loaded.
             SceneManager.LoadScene (1);
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Rug"))
+            {
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Carpet", 1);
+
+            }
+            if (other.gameObject.CompareTag("pickUp"))
+            {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/ScorePickup");
+                Destroy(other.gameObject);
+                pickupScript.Spawn();
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.CompareTag("Rug"))
+            {
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Carpet", 0);
+
+            }
+            
         }
     }
 }

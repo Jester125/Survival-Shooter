@@ -7,22 +7,25 @@ using TMPro;
 public class MinutesLeft : MonoBehaviour
 {
 
-    private TMP_Text timerText;
-    private Animator anim;
-    public int timeLeft = 0;
+    private TMP_Text minsText;
+    private Animator animator;
+    private Animation animation;
+    public int timeLeft = 4;
 
     // Start is called before the first frame update
     void Awake()
     {
-        timerText = GetComponent<TMP_Text>();
-        anim = gameObject.GetComponent<Animator>();
-        anim.Play("minutesLeft.Fade", 0, 0.0f);
+        minsText = GetComponent<TMP_Text>();
+        animator = gameObject.GetComponent<Animator>();
+        animation = gameObject.GetComponent<Animation>();
+        animator.Play("minutesLeft.Fade");
+        animation.Play();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        minsText.text = timeLeft + " Minutes Left";
     }
 }

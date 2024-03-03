@@ -5,7 +5,7 @@
 			<value>Hellephant_Death</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e0f3592c-2e97-4c6a-8258-8b4530b5de66}</destination>
@@ -198,7 +198,7 @@
 	</object>
 	<object class="SingleSound" id="{ef2a3076-648b-4394-8e10-0bd2ade831b6}">
 		<property name="start">
-			<value>0.74839002267573651</value>
+			<value>0.58839002267573648</value>
 		</property>
 		<property name="length">
 			<value>1.25</value>
@@ -223,7 +223,7 @@
 	</object>
 	<object class="SingleSound" id="{8790339c-746b-441f-b037-fdaf5cb6014d}">
 		<property name="start">
-			<value>0.82839002267573658</value>
+			<value>0.66839002267573655</value>
 		</property>
 		<property name="length">
 			<value>1.25</value>
@@ -250,9 +250,6 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{6975ea99-e8a6-4055-a453-9fb8eb5a59aa}">
-		<property name="start">
-			<value>0.16</value>
-		</property>
 		<property name="length">
 			<value>1.4373333333333334</value>
 		</property>
@@ -280,6 +277,7 @@
 	<object class="MixerBusEffectChain" id="{fcdd091c-82de-4965-a76e-543852e05182}">
 		<relationship name="effects">
 			<destination>{dc76df18-7583-462d-b39d-776dab7299d1}</destination>
+			<destination>{0d51b2ff-1ebe-41ee-9995-788e0a914378}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{77576180-69d2-4e74-8acd-3a866be08efc}" />
@@ -347,6 +345,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{ba085875-4ef2-4ab1-a720-5519e4495f1b}" />
 	<object class="MixerBusFader" id="{dc76df18-7583-462d-b39d-776dab7299d1}" />
+	<object class="SpatialiserEffect" id="{0d51b2ff-1ebe-41ee-9995-788e0a914378}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{b6294f53-954d-4c0f-8246-698064413208}">
 		<property name="position">
 			<value>0</value>
