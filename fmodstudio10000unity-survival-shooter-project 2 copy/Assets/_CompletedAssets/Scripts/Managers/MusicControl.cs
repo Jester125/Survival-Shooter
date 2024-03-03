@@ -64,9 +64,10 @@ public class MusicControl : MonoBehaviour
         DrumsEv.start();
         Debug.Log("playing drums");
     }
-    public void StopDrums()
+    public void StopDrums()  // called when player dies or you restart, this function also stops pads 
     {
         DrumsEv.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("PadsVol", 0);
     }
     
     void Destroy()

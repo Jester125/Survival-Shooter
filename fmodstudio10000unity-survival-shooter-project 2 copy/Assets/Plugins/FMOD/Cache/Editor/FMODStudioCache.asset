@@ -611,11 +611,12 @@ MonoBehaviour:
   - {fileID: 3380158787021846901}
   - {fileID: -792557495052504266}
   - {fileID: -3520829032619281567}
+  - {fileID: 3834554813063483699}
   MasterBanks:
   - {fileID: 8164602547422739281}
   StringsBanks:
   - {fileID: 7001669283489527494}
-  cacheTime: 638450869777500000
+  cacheTime: 638450936334200000
   cacheVersion: 131608
 --- !u!114 &254183204575456845
 MonoBehaviour:
@@ -829,6 +830,30 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &3834554813063483699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TakeDamage
+  m_EditorClassIdentifier: 
+  Name: TakeDamage
+  StudioPath: parameter:/TakeDamage
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2262056200
+    data2: 4034950151
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &4237439609818111834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1025,10 +1050,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638450869777500000
+  lastModified: 638450936334200000
   FileSizes:
   - Name: Desktop
-    Value: 2362
+    Value: 2402
   Exists: 1
 --- !u!114 &7214431930065064435
 MonoBehaviour:
@@ -1097,10 +1122,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638450869777400000
+  lastModified: 638450936334100000
   FileSizes:
   - Name: Desktop
-    Value: 15372640
+    Value: 15373248
   Exists: 1
 --- !u!114 &8344425843967434151
 MonoBehaviour:

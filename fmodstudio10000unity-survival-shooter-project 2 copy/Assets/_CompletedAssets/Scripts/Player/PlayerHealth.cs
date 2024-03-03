@@ -21,6 +21,7 @@ namespace CompleteProject
         PlayerMovement playerMovement;                              // Reference to the player's movement.
         PlayerShooting playerShooting;                              // Reference to the PlayerShooting script.
         public PickupManager pickupScript;
+        public MusicControl musicScript;
         bool isDead;                                                // Whether the player is dead.
         bool damaged;                                               // True when the player gets damaged.
 
@@ -62,6 +63,8 @@ namespace CompleteProject
 
         public void TakeDamage (int amount)
         {
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("TakeDamage", 1);
+
             // Set the damaged flag so the screen will flash.
             damaged = true;
 
@@ -100,6 +103,7 @@ namespace CompleteProject
             // Turn off the movement and shooting scripts.
             playerMovement.enabled = false;
             playerShooting.enabled = false;
+            musicScript.StopDrums();
         }
 
 

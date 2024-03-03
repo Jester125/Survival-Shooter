@@ -4869,6 +4869,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1394906873}
     - target: {fileID: 11400004, guid: 4e5a0d387dc27394b81600988ad0216f, type: 3}
+      propertyPath: musicScript
+      value: 
+      objectReference: {fileID: 1427975095}
+    - target: {fileID: 11400004, guid: 4e5a0d387dc27394b81600988ad0216f, type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 1837071937}

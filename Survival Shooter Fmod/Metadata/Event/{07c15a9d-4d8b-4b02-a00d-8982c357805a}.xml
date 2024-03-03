@@ -118,6 +118,12 @@
 		<property name="startOffset">
 			<value>71</value>
 		</property>
+		<property name="pitch">
+			<value>-0.5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{8f4c81b3-d897-4dfc-9de9-3ba0d4d30ee2}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{ee16e492-1820-4701-b57d-9ff2c04ee778}</destination>
 		</relationship>
@@ -130,7 +136,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{1f799334-3590-41a5-9e58-51d2d9cba765}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-5.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -152,6 +158,9 @@
 		<property name="length">
 			<value>0.35723356009070295</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{f07c477a-115d-48cd-b310-fa917134226e}</destination>
+		</relationship>
 		<relationship name="fadeInCurve">
 			<destination>{373ba4e4-e474-4656-8ec8-8888c41ab4e3}</destination>
 		</relationship>
@@ -186,6 +195,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{ab619a82-2a48-4fc4-8cb4-abf0b6a412ec}" />
 	<object class="MixerBusFader" id="{8dec71d8-9144-4ec3-85bc-27686844a9cd}" />
+	<object class="RandomizerModulator" id="{8f4c81b3-d897-4dfc-9de9-3ba0d4d30ee2}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>32.5</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{ee16e492-1820-4701-b57d-9ff2c04ee778}">
 		<relationship name="startPoint">
 			<destination>{bbfde76e-82d0-41e7-96db-c861c8474ee2}</destination>
@@ -209,6 +226,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0fdc8726-100a-4fe5-a75d-9917447698fb}" />
+	<object class="RandomizerModulator" id="{f07c477a-115d-48cd-b310-fa917134226e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>19</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{373ba4e4-e474-4656-8ec8-8888c41ab4e3}">
 		<relationship name="startPoint">
 			<destination>{250405a9-a877-4dd9-9070-60f37bfc31dd}</destination>
