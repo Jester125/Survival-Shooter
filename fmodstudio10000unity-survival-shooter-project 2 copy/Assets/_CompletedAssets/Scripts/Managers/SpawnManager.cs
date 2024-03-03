@@ -69,5 +69,12 @@ namespace CompleteProject
             // Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
             Instantiate(helle, helleSpawnPoints[spawnPointIndex].position, helleSpawnPoints[spawnPointIndex].rotation);
         }
+        public void Respawn()
+        {
+            CancelInvoke();
+            InvokeRepeating("SpawnBunny", BunnySpawnTime, BunnySpawnTime);
+            InvokeRepeating("SpawnBear", BearSpawnTime, BearSpawnTime);
+            InvokeRepeating("SpawnHelle", HelleSpawnTime, HelleSpawnTime);
+        }
     }
 }

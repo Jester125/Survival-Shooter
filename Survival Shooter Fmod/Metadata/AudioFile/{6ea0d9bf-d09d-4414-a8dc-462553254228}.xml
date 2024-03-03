@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6ea0d9bf-d09d-4414-a8dc-462553254228}">
 		<property name="assetPath">
-			<value>524334-Foot-Steps-Wood-De-Noised-Steps-7.wav</value>
+			<value>Effects/Player/Footstep/Footstep on wood.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

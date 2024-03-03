@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{c9e8f946-4bd3-48b3-806a-d5cd4a54dac0}">
+		<property name="assetPath">
+			<value>Effects/ClockChimes/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f337d7c0-216d-48f6-958c-384629663d04}</destination>
+		</relationship>
+	</object>
+</objects>

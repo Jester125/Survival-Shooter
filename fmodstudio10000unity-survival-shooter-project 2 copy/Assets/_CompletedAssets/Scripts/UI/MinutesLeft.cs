@@ -18,7 +18,7 @@ public class MinutesLeft : MonoBehaviour
         minsText = GetComponent<TMP_Text>();
         animator = gameObject.GetComponent<Animator>();
         animation = gameObject.GetComponent<Animation>();
-        animator.Play("minutesLeft.Fade");
+        //animator.Play("minutesLeft.Fade");
         animation.Play();
 
     }

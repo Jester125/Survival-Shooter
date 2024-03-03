@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{163083f4-d0a5-493b-b347-a7b4e2b3c204}">
 		<property name="assetPath">
-			<value>presence.wav</value>
+			<value>Atmos/presence.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

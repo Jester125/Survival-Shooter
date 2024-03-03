@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6e8c1f4e-09e7-4c11-af44-fd977825760b}">
 		<property name="assetPath">
-			<value>Effects/Hellephant Death.wav</value>
+			<value>Effects/Hellephant/Death/Hellephant Death.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

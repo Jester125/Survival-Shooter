@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{ea75e9cf-cd55-4f72-ab94-fb4359fe7db3}">
 		<property name="assetPath">
-			<value>Effects/ZomBear Death.wav</value>
+			<value>Effects/Zombunny and bear/death/ZomBear Death.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

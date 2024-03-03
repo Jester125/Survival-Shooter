@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EncodableAsset" id="{cfd09891-d2b4-4832-8049-bb5249575e34}">
 		<property name="assetPath">
-			<value>Effects/New Folder/</value>
+			<value>Effects/Hellephant/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f337d7c0-216d-48f6-958c-384629663d04}</destination>

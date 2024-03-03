@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{593ac140-6bc3-4bb5-8c8d-76430703749c}">
 		<property name="assetPath">
-			<value>LampBuzz.wav</value>
+			<value>Positional/Lamp/LampBuzz.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

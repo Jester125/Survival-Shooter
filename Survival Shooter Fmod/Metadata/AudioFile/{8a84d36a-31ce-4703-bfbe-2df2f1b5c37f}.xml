@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8a84d36a-31ce-4703-bfbe-2df2f1b5c37f}">
 		<property name="assetPath">
-			<value>99948-Sound_design_horror_accent_bed_clock_chimes_eerie_01-SFXBible-ss01135.wav</value>
+			<value>Effects/ClockChimes/99948-Sound_design_horror_accent_bed_clock_chimes_eerie_01-SFXBible-ss01135.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

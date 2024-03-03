@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{f184767b-d1f8-459e-b85e-6b6d7ad95c28}">
 		<property name="assetPath">
-			<value>245834-toy_by_02 [2024-01-30 000741].wav</value>
+			<value>Atmos/Scutter/245834-toy_by_02 [2024-01-30 000741].wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

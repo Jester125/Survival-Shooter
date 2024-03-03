@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{62822efd-4695-4703-8bd6-ac18c44d87d0}">
 		<property name="assetPath">
-			<value>222833-Otter-moan-pitch-variations-02.wav</value>
+			<value>Effects/Zombunny and bear/death/222833-Otter-moan-pitch-variations-02.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>192</value>

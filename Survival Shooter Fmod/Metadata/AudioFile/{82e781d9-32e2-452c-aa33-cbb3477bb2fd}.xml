@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{82e781d9-32e2-452c-aa33-cbb3477bb2fd}">
 		<property name="assetPath">
-			<value>Dish4.wav</value>
+			<value>Atmos/Dishonoured/Dish4.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

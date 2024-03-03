@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{55de9274-be02-4604-b491-b4970b3a63ee}">
 		<property name="assetPath">
-			<value>403658-Single_Footstep_-Carpet_Rug_Floor_Soft_Impact_Thud_Stomp_-02_007273_.wav</value>
+			<value>Effects/Player/Footstep/403658-Single_Footstep_-Carpet_Rug_Floor_Soft_Impact_Thud_Stomp_-02_007273_.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

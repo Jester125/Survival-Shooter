@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{11f48280-13bb-459a-b01d-1e75bcc0bd97}">
 		<property name="assetPath">
-			<value>268829__kwahmah_02__huge-footsteps.wav</value>
+			<value>Effects/Hellephant/Footstep/268829__kwahmah_02__huge-footsteps.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -24,21 +24,22 @@ public class Timer : MonoBehaviour
 
     [SerializeField] private float timeToDisplay = 240.0f;
 
-    private bool isRunning;
+    private bool isRunning = true;
 
     // Start is called before the first frame update
     private void Awake()
     {
         timerText = GetComponent<TMP_Text>();
         minsLeft.timeLeft = 4;
-        StartCoroutine("Waitfor5");
+        StartCoroutine("Waitfor8");
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Morning", 0);
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("BreakFade", 0);
 
-        spawnManager.BearSpawnTime = 5f;
-        spawnManager.BunnySpawnTime = 7f;
+        spawnManager.BearSpawnTime = 6f;
+        spawnManager.BunnySpawnTime = 8f;
         spawnManager.HelleSpawnTime = 40f;
 
+        
     }
 
     // Update is called once per frame
@@ -68,30 +69,34 @@ public class Timer : MonoBehaviour
         if (timeToDisplay <= 180.0f && minsLeft.timeLeft == 4)
         {
             minsLeft.timeLeft = 3;
-            StartCoroutine("Waitfor5");
+            StartCoroutine("Waitfor8");
             FMODUnity.RuntimeManager.StudioSystem.setParameterByName("PadsVol", 1);
-            spawnManager.BearSpawnTime = 1f;
-            spawnManager.BunnySpawnTime = 2f;
-            spawnManager.HelleSpawnTime = 10f;
+            
+            spawnManager.BearSpawnTime = 4f;
+            spawnManager.BunnySpawnTime = 5f;
+            spawnManager.HelleSpawnTime = 30f;
+            spawnManager.Respawn();
 
         }
         if (timeToDisplay <= 120.0f && minsLeft.timeLeft == 3)
         {
             minsLeft.timeLeft = 2;
-            StartCoroutine("Waitfor5");
+            StartCoroutine("Waitfor8");
             musicScript.PlayDrums();
-            spawnManager.BearSpawnTime = 0.1f;
-            spawnManager.BunnySpawnTime = 0.2f;
-            spawnManager.HelleSpawnTime = 4f;
+            spawnManager.BearSpawnTime = 3f;
+            spawnManager.BunnySpawnTime = 2f;
+            spawnManager.HelleSpawnTime = 20f;
+            spawnManager.Respawn();
         }
         if (timeToDisplay <= 60.0f && minsLeft.timeLeft == 2)
         {
             minsLeft.timeLeft = 1;
-            StartCoroutine("Waitfor5");
+            StartCoroutine("Waitfor8");
             FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Morning", 1);
-            spawnManager.BearSpawnTime = 0.051f;
-            spawnManager.BunnySpawnTime = 0.08f;
-            spawnManager.HelleSpawnTime = 1f;
+            spawnManager.BearSpawnTime = 1f;
+            spawnManager.BunnySpawnTime = 2f;
+            spawnManager.HelleSpawnTime = 10f;
+            spawnManager.Respawn();
         }
         if (timeToDisplay <= 30.0 && secsLeft == false)
         {
@@ -118,10 +123,10 @@ public class Timer : MonoBehaviour
        
     }
 
-    IEnumerator Waitfor5()
+    IEnumerator Waitfor8()
     {
         minsDisplay.SetActive(true);
-        FMODUnity.RuntimeManager.PlayOneShot("event:/ClockChimes");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/ClockChimes");
         yield return new WaitForSeconds(8);
         minsDisplay.SetActive(false);
 
@@ -129,7 +134,8 @@ public class Timer : MonoBehaviour
     }
     IEnumerator Ending()
     {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/ClockChimes");
+        isRunning = false;
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/ClockChimes");
         musicScript.StopDrums();
         survived.SetActive(true);
         Time.timeScale = 0.3f;

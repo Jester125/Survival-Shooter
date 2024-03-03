@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3ef7108f-4dc1-4215-86cc-5b0ff31b79f1}">
 		<property name="assetPath">
-			<value>Samples/379246-Gravitas-bridge-stomp-large-flat-concrete-heavyiron-creek-suburbangreenway-light-resonant-airy-bottom.wav</value>
+			<value>Effects/Hellephant/Death/379246-Gravitas-bridge-stomp-large-flat-concrete-heavyiron-creek-suburbangreenway-light-resonant-airy-bottom.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

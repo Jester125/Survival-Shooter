@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6e0cc5f8-e09d-4571-aeb3-8070f3fc8d60}">
 		<property name="assetPath">
-			<value>698768__ienba__game-pickup.wav</value>
+			<value>Effects/Collectable/698768__ienba__game-pickup.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

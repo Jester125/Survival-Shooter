@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{90f82cae-67c1-47a7-8707-31d299eb9e48}">
 		<property name="assetPath">
-			<value>24155-Clock-tick.wav</value>
+			<value>Positional/Clock Tick/24155-Clock-tick.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

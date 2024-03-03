@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{42cc1256-12bb-4224-b53d-9b316cd40c01}">
 		<property name="assetPath">
-			<value>130507__duckduckpony__high-grainy-swirling-tone.wav</value>
+			<value>Positional/ScoreHum/130507__duckduckpony__high-grainy-swirling-tone.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

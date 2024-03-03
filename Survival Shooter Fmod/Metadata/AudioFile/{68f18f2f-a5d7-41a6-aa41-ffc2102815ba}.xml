@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{68f18f2f-a5d7-41a6-aa41-ffc2102815ba}">
 		<property name="assetPath">
-			<value>492134-FEETHmn-SFTHWD-Slipper_Soft_Sole_Reduced_Low_End_Run-PPA-TSC-MONO-MKH60 [2024-02-20 183112].wav</value>
+			<value>Effects/Player/Footstep/492134-FEETHmn-SFTHWD-Slipper_Soft_Sole_Reduced_Low_End_Run-PPA-TSC-MONO-MKH60 [2024-02-20 183112].wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

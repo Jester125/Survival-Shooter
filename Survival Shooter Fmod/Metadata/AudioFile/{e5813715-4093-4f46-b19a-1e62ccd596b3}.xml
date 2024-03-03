@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{e5813715-4093-4f46-b19a-1e62ccd596b3}">
 		<property name="assetPath">
-			<value>Samples/495279-GLASCrsh-Glass_Shards-Kick_Stomp_Stand_Crackle_Clink-LukT-BreakShards-LR_CO100K_MKH30_01.wav</value>
+			<value>Effects/Hellephant/Death/495279-GLASCrsh-Glass_Shards-Kick_Stomp_Stand_Crackle_Clink-LukT-BreakShards-LR_CO100K_MKH30_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

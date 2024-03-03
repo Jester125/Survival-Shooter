@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5b068162-cfe9-41ad-8116-2f3f186c11bb}">
 		<property name="assetPath">
-			<value>Dish1.wav</value>
+			<value>Atmos/Dishonoured/Dish1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

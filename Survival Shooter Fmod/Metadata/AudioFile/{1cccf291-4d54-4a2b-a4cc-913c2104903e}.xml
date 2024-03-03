@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1cccf291-4d54-4a2b-a4cc-913c2104903e}">
 		<property name="assetPath">
-			<value>Samples/379201-Gravitas-bridge-stomp-average-arched-wood-metal-lightiron-gully-stream-forest-light-rattle-ripple-bottom.wav</value>
+			<value>Effects/Zombunny and bear/death/379201-Gravitas-bridge-stomp-average-arched-wood-metal-lightiron-gully-stream-forest-light-rattle-ripple-bottom.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

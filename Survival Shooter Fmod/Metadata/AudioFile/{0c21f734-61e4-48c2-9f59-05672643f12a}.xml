@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{0c21f734-61e4-48c2-9f59-05672643f12a}">
 		<property name="assetPath">
-			<value>Creaklow.wav</value>
+			<value>Atmos/Creaking/Creaklow.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

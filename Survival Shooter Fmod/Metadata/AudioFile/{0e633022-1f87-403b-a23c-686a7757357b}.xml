@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{0e633022-1f87-403b-a23c-686a7757357b}">
 		<property name="assetPath">
-			<value>48703-HORROR_SWELL_DARK_DISSONANT_STRINGS_METALLIC_SWIRL_FEEDBACK_01.wav</value>
+			<value>Effects/Transition/48703-HORROR_SWELL_DARK_DISSONANT_STRINGS_METALLIC_SWIRL_FEEDBACK_01.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

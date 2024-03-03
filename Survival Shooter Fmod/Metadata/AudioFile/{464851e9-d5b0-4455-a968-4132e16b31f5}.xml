@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{464851e9-d5b0-4455-a968-4132e16b31f5}">
 		<property name="assetPath">
-			<value>226784-TROPICAL_Rural_farm_morning_with_roaster_wake-up_calls.wav</value>
+			<value>Atmos/Morning/226784-TROPICAL_Rural_farm_morning_with_roaster_wake-up_calls.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
