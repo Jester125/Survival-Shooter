@@ -22,6 +22,7 @@ namespace CompleteProject
         PlayerShooting playerShooting;                              // Reference to the PlayerShooting script.
         public PickupManager pickupScript;
         public MusicControl musicScript;
+        public Timer timerScript;
         bool isDead;                                                // Whether the player is dead.
         bool damaged;                                               // True when the player gets damaged.
 
@@ -63,26 +64,30 @@ namespace CompleteProject
 
         public void TakeDamage (int amount)
         {
-            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("TakeDamage", 1);
-
-            // Set the damaged flag so the screen will flash.
-            damaged = true;
-
-            // Reduce the current health by the damage amount.
-            currentHealth -= amount;
-
-            // Set the health bar's value to the current health.
-            healthSlider.value = currentHealth;
-
-            // Play the hurt sound effect. //FMOD Player Hurt!!!
-            
-
-            // If the player has lost all it's health and the death flag hasn't been set yet...
-            if(currentHealth <= 0 && !isDead)
+            if (timerScript.isRunning) // when the timer reaches zero, is running is set to false and then the play cannot take damage
             {
-                // ... it should die.
-                Death ();
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("TakeDamage", 1);
+
+                // Set the damaged flag so the screen will flash.
+                damaged = true;
+
+                // Reduce the current health by the damage amount.
+                currentHealth -= amount;
+
+                // Set the health bar's value to the current health.
+                healthSlider.value = currentHealth;
+
+                // Play the hurt sound effect. //FMOD Player Hurt!!!
+
+
+                // If the player has lost all it's health and the death flag hasn't been set yet...
+                if (currentHealth <= 0 && !isDead)
+                {
+                    // ... it should die.
+                    Death();
+                }
             }
+            
         }
 
 
@@ -125,6 +130,8 @@ namespace CompleteProject
                 FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/ScorePickup");
                 Destroy(other.gameObject);
                 pickupScript.Spawn();
+                ScoreManager.score += 100;
+
             }
         }
 

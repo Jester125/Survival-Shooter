@@ -24,7 +24,7 @@ public class Timer : MonoBehaviour
 
     [SerializeField] private float timeToDisplay = 240.0f;
 
-    private bool isRunning = true;
+    public bool isRunning = true;
 
     // Start is called before the first frame update
     private void Awake()
@@ -84,7 +84,7 @@ public class Timer : MonoBehaviour
             StartCoroutine("Waitfor8");
             musicScript.PlayDrums();
             spawnManager.BearSpawnTime = 3f;
-            spawnManager.BunnySpawnTime = 2f;
+            spawnManager.BunnySpawnTime = 3f;
             spawnManager.HelleSpawnTime = 20f;
             spawnManager.Respawn();
         }
@@ -93,7 +93,7 @@ public class Timer : MonoBehaviour
             minsLeft.timeLeft = 1;
             StartCoroutine("Waitfor8");
             FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Morning", 1);
-            spawnManager.BearSpawnTime = 1f;
+            spawnManager.BearSpawnTime = 2f;
             spawnManager.BunnySpawnTime = 2f;
             spawnManager.HelleSpawnTime = 10f;
             spawnManager.Respawn();
@@ -111,6 +111,7 @@ public class Timer : MonoBehaviour
         {
             isFinished = true;
             StartCoroutine("Ending");
+            isRunning = false;
             
             FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Morning", 0);
         };
@@ -134,7 +135,7 @@ public class Timer : MonoBehaviour
     }
     IEnumerator Ending()
     {
-        isRunning = false;
+        
         FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/ClockChimes");
         musicScript.StopDrums();
         survived.SetActive(true);
@@ -144,11 +145,7 @@ public class Timer : MonoBehaviour
         //survived.SetActive(false);
         Time.timeScale = 0;
         restartButton.SetActive(true);
-        
-
-
-
-
+    
     }
 }
 

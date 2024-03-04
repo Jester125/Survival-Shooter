@@ -20,6 +20,8 @@ public class DialogueMusic : MonoBehaviour
     {
         DialogueEv = FMODUnity.RuntimeManager.CreateInstance(dialogue);
         DialogueEv.start();
+        StartCoroutine("WaitforLoad");
+        
     }
 
     // Update is called once per frame
@@ -30,7 +32,7 @@ public class DialogueMusic : MonoBehaviour
 
     public void NextScene()
     {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/Transition");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/Transition");
         fadeEffect.SetActive(true);
         StartCoroutine("Waitfor5");
     }
@@ -45,6 +47,13 @@ public class DialogueMusic : MonoBehaviour
     public void FadeIn()
     {
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DialogueVol", 1);
-        
+        Time.timeScale = 1f;
+
+    }
+
+    IEnumerator WaitforLoad()
+    {
+        yield return new WaitForSeconds(2);
+        Time.timeScale = 0f;
     }
 }

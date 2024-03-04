@@ -19,6 +19,7 @@
 			<destination>{c94bc669-cdc0-4071-b615-74861073b35b}</destination>
 			<destination>{941c0d74-4a97-4f77-9441-65ba924101a3}</destination>
 			<destination>{3665d748-1a71-4fa5-bb03-5cb45fc1494c}</destination>
+			<destination>{fd42d263-11a0-4778-9ff2-9ea53a971c25}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fec58ac4-b41a-4fdf-9f9b-3fc3f23fec18}" />
@@ -44,5 +45,25 @@
 		<property name="releaseTime">
 			<value>560</value>
 		</property>
+		<relationship name="sidechains">
+			<destination>{34bc735a-2159-437c-a5ca-aa7b1c373b34}</destination>
+		</relationship>
+	</object>
+	<object class="CompressorEffect" id="{fd42d263-11a0-4778-9ff2-9ea53a971c25}">
+		<property name="threshold">
+			<value>-28</value>
+		</property>
+		<property name="ratio">
+			<value>20</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>5000</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{42b004d3-dc2f-47de-9b07-3fee71499dc8}</destination>
+		</relationship>
 	</object>
 </objects>

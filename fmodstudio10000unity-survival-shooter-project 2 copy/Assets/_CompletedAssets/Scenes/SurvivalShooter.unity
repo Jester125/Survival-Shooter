@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: a7bed68887a07e34394d4191b3081359, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.06262761, g: 0.086214036, b: 0.12200148, a: 1}
+  m_IndirectSpecularColor: {r: 0.010266641, g: 0.014133498, b: 0.020000475, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -4696,6 +4696,7 @@ MonoBehaviour:
   isFinished: 0
   restartButton: {fileID: 881500437}
   timeToDisplay: 240
+  isRunning: 1
 --- !u!1 &1591794898
 GameObject:
   m_ObjectHideFlags: 0
@@ -4872,6 +4873,14 @@ PrefabInstance:
       propertyPath: musicScript
       value: 
       objectReference: {fileID: 1427975095}
+    - target: {fileID: 11400004, guid: 4e5a0d387dc27394b81600988ad0216f, type: 3}
+      propertyPath: scoreScript
+      value: 
+      objectReference: {fileID: 1434159497}
+    - target: {fileID: 11400004, guid: 4e5a0d387dc27394b81600988ad0216f, type: 3}
+      propertyPath: timerScript
+      value: 
+      objectReference: {fileID: 1578096749}
     - target: {fileID: 11400004, guid: 4e5a0d387dc27394b81600988ad0216f, type: 3}
       propertyPath: healthSlider
       value: 
