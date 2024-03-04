@@ -616,7 +616,7 @@ MonoBehaviour:
   - {fileID: 8164602547422739281}
   StringsBanks:
   - {fileID: 7001669283489527494}
-  cacheTime: 638451529398100000
+  cacheTime: 638451676616600000
   cacheVersion: 131608
 --- !u!114 &254183204575456845
 MonoBehaviour:
@@ -1050,10 +1050,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638451529398100000
+  lastModified: 638451676616600000
   FileSizes:
   - Name: Desktop
-    Value: 2402
+    Value: 2444
   Exists: 1
 --- !u!114 &7214431930065064435
 MonoBehaviour:
@@ -1122,10 +1122,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638451529398100000
+  lastModified: 638451676616500000
   FileSizes:
   - Name: Desktop
-    Value: 15373792
+    Value: 15374336
   Exists: 1
 --- !u!114 &8344425843967434151
 MonoBehaviour:
