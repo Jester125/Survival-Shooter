@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{2f2f1fed-7ab8-4672-9e5f-aceec69de8d7}">
+		<property name="volume">
+			<value>-2.5</value>
+		</property>
 		<property name="name">
 			<value>ClockChimes</value>
 		</property>
@@ -26,7 +29,7 @@
 	<object class="Sidechain" id="{42b004d3-dc2f-47de-9b07-3fee71499dc8}" />
 	<object class="MixerSend" id="{fd80b606-a8b1-4750-9ca1-79eba30b8097}">
 		<property name="level">
-			<value>7</value>
+			<value>1.5</value>
 		</property>
 		<property name="inputFormat">
 			<value>1</value>

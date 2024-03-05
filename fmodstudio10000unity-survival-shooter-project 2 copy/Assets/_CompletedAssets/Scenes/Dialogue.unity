@@ -229,6 +229,7 @@ MonoBehaviour:
   fadeEffect: {fileID: 1293627067}
   MainScene: Assets/_CompletedAssets/Scenes/SurvivalShooter.unity
   dialogue: event:/Dialogue/Dialogue
+  rabbit: {fileID: 917684965}
 --- !u!4 &53269715
 Transform:
   m_ObjectHideFlags: 0
@@ -581,7 +582,7 @@ PrefabInstance:
     - target: {fileID: 4340539383612703545, guid: ef9bab49b1e42aa4eba41b12071319e4,
         type: 3}
       propertyPath: timeEffect
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4340539383612703545, guid: ef9bab49b1e42aa4eba41b12071319e4,
         type: 3}
@@ -764,6 +765,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &917684965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1632189569177846, guid: c0838f71047cde340b8320435418a398,
+    type: 3}
+  m_PrefabInstance: {fileID: 1882163108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1033048177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1921,19 +1928,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235038215153912, guid: c0838f71047cde340b8320435418a398, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.0011546364
+      value: -0.022447668
       objectReference: {fileID: 0}
     - target: {fileID: 4235038215153912, guid: c0838f71047cde340b8320435418a398, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0012505045
+      value: 0.0037516896
       objectReference: {fileID: 0}
     - target: {fileID: 4235038215153912, guid: c0838f71047cde340b8320435418a398, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9944287
+      value: 0.994176
       objectReference: {fileID: 0}
     - target: {fileID: 4235038215153912, guid: c0838f71047cde340b8320435418a398, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.10539797
+      value: 0.105338596
       objectReference: {fileID: 0}
     - target: {fileID: 4235038215153912, guid: c0838f71047cde340b8320435418a398, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1941,7 +1948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235038215153912, guid: c0838f71047cde340b8320435418a398, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 179.85
+      value: 182.57
       objectReference: {fileID: 0}
     - target: {fileID: 4235038215153912, guid: c0838f71047cde340b8320435418a398, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z

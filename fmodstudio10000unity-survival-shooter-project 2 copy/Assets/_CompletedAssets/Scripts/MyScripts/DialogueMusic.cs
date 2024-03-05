@@ -11,6 +11,7 @@ public class DialogueMusic : MonoBehaviour
     public string MainScene = "";
 
     public string dialogue = "event:/Dialogue/Dialogue";
+    public GameObject rabbit;
 
 
     FMOD.Studio.EventInstance DialogueEv;
@@ -33,6 +34,7 @@ public class DialogueMusic : MonoBehaviour
     public void NextScene()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/Effects/Transition");
+        rabbit.transform.Rotate (0f, 15f, 0f);
         fadeEffect.SetActive(true);
         StartCoroutine("Waitfor5");
     }
@@ -53,7 +55,7 @@ public class DialogueMusic : MonoBehaviour
 
     IEnumerator WaitforLoad()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(2.2f);
         Time.timeScale = 0f;
     }
 }
