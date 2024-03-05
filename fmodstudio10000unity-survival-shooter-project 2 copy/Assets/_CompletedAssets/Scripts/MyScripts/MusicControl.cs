@@ -42,6 +42,7 @@ public class MusicControl : MonoBehaviour
         DishEv.start();
         DrumsEv.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("AtmosVol", 1);
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("PadsVol", 0);
         EventManager.OnTimerStart();
 
 

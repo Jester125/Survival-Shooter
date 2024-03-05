@@ -39,7 +39,9 @@ namespace CompleteProject
             currentHealth = startingHealth;
 
             FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Carpet", 0);
+            
         }
+        
 
 
         void Update ()
@@ -67,17 +69,21 @@ namespace CompleteProject
             if (timerScript.isRunning) // when the timer reaches zero, is running is set to false and then the play cannot take damage
             {
                 FMODUnity.RuntimeManager.StudioSystem.setParameterByName("TakeDamage", 1);
+                
+
 
                 // Set the damaged flag so the screen will flash.
                 damaged = true;
 
                 // Reduce the current health by the damage amount.
                 currentHealth -= amount;
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("PlayerHealth", currentHealth / 100f);
+                
 
                 // Set the health bar's value to the current health.
                 healthSlider.value = currentHealth;
 
-                // Play the hurt sound effect. //FMOD Player Hurt!!!
+                
 
 
                 // If the player has lost all it's health and the death flag hasn't been set yet...
@@ -95,6 +101,8 @@ namespace CompleteProject
         {
             // Set the death flag so this function won't be called again.
             isDead = true;
+
+            
 
             // Turn off any remaining shooting effects.
             playerShooting.DisableEffects ();

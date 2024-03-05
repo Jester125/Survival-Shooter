@@ -612,11 +612,12 @@ MonoBehaviour:
   - {fileID: -792557495052504266}
   - {fileID: -3520829032619281567}
   - {fileID: 3834554813063483699}
+  - {fileID: 6445078064893160099}
   MasterBanks:
   - {fileID: 8164602547422739281}
   StringsBanks:
   - {fileID: 7001669283489527494}
-  cacheTime: 638451676616600000
+  cacheTime: 638452349257800000
   cacheVersion: 131608
 --- !u!114 &254183204575456845
 MonoBehaviour:
@@ -1008,6 +1009,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9000
+--- !u!114 &6445078064893160099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerHealth
+  m_EditorClassIdentifier: 
+  Name: PlayerHealth
+  StudioPath: parameter:/PlayerHealth
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 851659942
+    data2: 4198404053
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &6735636584439743257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1050,10 +1075,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638451676616600000
+  lastModified: 638452349257800000
   FileSizes:
   - Name: Desktop
-    Value: 2444
+    Value: 2498
   Exists: 1
 --- !u!114 &7214431930065064435
 MonoBehaviour:
@@ -1122,10 +1147,10 @@ MonoBehaviour:
   Path: ../Survival Shooter Fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638451676616500000
+  lastModified: 638452349257800000
   FileSizes:
   - Name: Desktop
-    Value: 15374336
+    Value: 15377472
   Exists: 1
 --- !u!114 &8344425843967434151
 MonoBehaviour:

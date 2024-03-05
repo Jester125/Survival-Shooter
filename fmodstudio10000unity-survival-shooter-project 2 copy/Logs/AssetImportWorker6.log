@@ -1,0 +1,393 @@
+Unity Editor version:    2022.3.4f1 (35713cd46cd7)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+/Volumes/T7 Shield/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+61295
+Successfully changed project path to: /Volumes/T7 Shield/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy
+/Volumes/T7 Shield/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4488805888] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 942031756 [EditorId] 942031756 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4488805888] Host "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 942031756 [EditorId] 942031756 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-6.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 31.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/T7 Shield/GitHub/Survival-Shooter/fmodstudio10000unity-survival-shooter-project 2 copy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002635 seconds.
+- Loaded All Assemblies, in  0.713 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 1282ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (209ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (310ms)
+				TypeCache.ScanAssembly (283ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (432ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.285 seconds
+Refreshing native plugins compatible for Editor in 16.06 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.150 seconds
+Domain Reload Profiling: 2436ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (928ms)
+		LoadAssemblies (483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (526ms)
+			TypeCache.Refresh (477ms)
+				TypeCache.ScanAssembly (452ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1151ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (857ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (283ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 17.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2742 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 122 unused Assets / (153.6 KB). Loaded Objects now: 3149.
+Memory consumption went from 235.8 MB to 235.6 MB.
+Total: 11.573655 ms (FindLiveObjects: 0.298394 ms CreateObjectMapping: 0.310548 ms MarkObjects: 10.641004 ms  DeleteObjects: 0.321675 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RestartButton.cs: ad02150b95cd134ff72c656e0c44c2bb -> c95a3ce1799821ce712be825694325d8
+  custom:scripting/monoscript/fileName/ConversationStart.cs: ad4f6acfe5db78d981c8ed4a88dc5c51 -> 2feb3e6f59710a086fa40372cfb5475f
+  custom:scripting/monoscript/fileName/EnemyManager.cs: 86a22655b04f66df7f689bb2ba32335c -> a5f2ce24d5a536281782526914f0e68f
+  custom:scripting/monoscript/fileName/PlayerHealth.cs: 7738bfb7fe5a1df1bf9e83dff2a273b4 -> 0511697b874ef8cef3e8abbb52103cc8
+  custom:scripting/monoscript/fileName/PickupManager.cs: 83f5a897701fd48419c342aaadb4ccbb -> 64cb3f47ca47a352b2c36ee78f8a2d78
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GDTFadeEffect.cs: dc03fe28317e15a2f3b3eecdb520304b -> 90886b61936ce00f4602413532e8c3f5
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/SpawnManager.cs: 7f1612d1a6a8935b93998a21e37334d4 -> db5d4d2843727fd49b91cf9c31204777
+  custom:scripting/monoscript/fileName/EventManager.cs: 8003cf18b11e6bfb68fa7cf004061361 -> b4932ecbd1aed70f30b5173c637523ad
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 91ef9c9f325d397ef61f3d464eab9156 -> 52a66a877fac1cc64d9467daa6f02200
+  custom:scripting/monoscript/fileName/DialogueMusic.cs: 5970f2c6cdeb080e2d3bfa7b5ac09492 -> 99f182836e91b7f94557007bcef592ff
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MinutesLeft.cs: 97aaa4dae3bf93ce73ba6998c8973414 -> 4037d7e3933e4854b0797994decfecad
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: f72f325f98e5f5e0ce769a1110534f94 -> dcfc375dc763cb36441ad533f06255cf
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Timer.cs: 5d31587dd0e79be1af535a20471b81a7 -> f54b6ea9fe9dd32849bba1caae18d062
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 07a9f7531a716f3f6b50b648aed202da -> 9c394d8fe723e0cf08fc8d3a7ec6be1e
+  custom:scripting/monoscript/fileName/MusicControl.cs: d54b7da84118b6a039487bbfb937509f -> 1f92001a2be0ca7bf07dd125d2ce3e02
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ScoreManager.cs: c0d56a7c8e0484a1e234ba15d3819d58 -> 0aafd5dcc77c815445bbfc642eac32dd
+  custom:scripting/monoscript/fileName/PlayerShooting.cs: ef204a0894d7bce6ae205b7316ebb20f -> 4284a38ad4e51bfd3df011c5b667295e
+  custom:scripting/monoscript/fileName/daylight.cs: 31c1741f4709d1b4599b1c5cb4650e78 -> 6290c2fd8e6fe559c70bf6d1b64901de
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 438464.105089 seconds.
+  path: Assets/_CompletedAssets/Prefabs/ZomBunny.prefab
+  artifactKey: Guid(e5171f72421770240bd7c3989fe351e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_CompletedAssets/Prefabs/ZomBunny.prefab using Guid(e5171f72421770240bd7c3989fe351e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c980b9377f60a1542deb078d3222811') in 0.310965 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/_CompletedAssets/Prefabs/ZomBear.prefab
+  artifactKey: Guid(ea3c2728ef33e3a4d99527a86cda6465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_CompletedAssets/Prefabs/ZomBear.prefab using Guid(ea3c2728ef33e3a4d99527a86cda6465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d55841157f999deb1a2eb57e1be629') in 0.091063 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 9.009956 seconds.
+  path: Assets/_CompletedAssets/Prefabs/5 Side Diamond Variant.prefab
+  artifactKey: Guid(a3910664a76344b7098e89598b556c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_CompletedAssets/Prefabs/5 Side Diamond Variant.prefab using Guid(a3910664a76344b7098e89598b556c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5e9dc67833583710fac779e979441c') in 0.015308 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.985 seconds
+Refreshing native plugins compatible for Editor in 10.75 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.503 seconds
+Domain Reload Profiling: 2487ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (696ms)
+		LoadAssemblies (384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (367ms)
+				TypeCache.ScanAssembly (350ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1503ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (214ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 19.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2722 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (129.1 KB). Loaded Objects now: 3161.
+Memory consumption went from 237.5 MB to 237.4 MB.
+Total: 9.529714 ms (FindLiveObjects: 0.314408 ms CreateObjectMapping: 0.282489 ms MarkObjects: 8.738009 ms  DeleteObjects: 0.193724 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RestartButton.cs: ad02150b95cd134ff72c656e0c44c2bb -> c95a3ce1799821ce712be825694325d8
+  custom:scripting/monoscript/fileName/ConversationStart.cs: ad4f6acfe5db78d981c8ed4a88dc5c51 -> 2feb3e6f59710a086fa40372cfb5475f
+  custom:scripting/monoscript/fileName/EnemyManager.cs: 86a22655b04f66df7f689bb2ba32335c -> a5f2ce24d5a536281782526914f0e68f
+  custom:scripting/monoscript/fileName/PlayerHealth.cs: 7738bfb7fe5a1df1bf9e83dff2a273b4 -> 0511697b874ef8cef3e8abbb52103cc8
+  custom:scripting/monoscript/fileName/PickupManager.cs: 83f5a897701fd48419c342aaadb4ccbb -> 64cb3f47ca47a352b2c36ee78f8a2d78
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GDTFadeEffect.cs: dc03fe28317e15a2f3b3eecdb520304b -> 90886b61936ce00f4602413532e8c3f5
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/SpawnManager.cs: 7f1612d1a6a8935b93998a21e37334d4 -> db5d4d2843727fd49b91cf9c31204777
+  custom:scripting/monoscript/fileName/EventManager.cs: 8003cf18b11e6bfb68fa7cf004061361 -> b4932ecbd1aed70f30b5173c637523ad
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 91ef9c9f325d397ef61f3d464eab9156 -> 52a66a877fac1cc64d9467daa6f02200
+  custom:scripting/monoscript/fileName/DialogueMusic.cs: 5970f2c6cdeb080e2d3bfa7b5ac09492 -> 99f182836e91b7f94557007bcef592ff
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MinutesLeft.cs: 97aaa4dae3bf93ce73ba6998c8973414 -> 4037d7e3933e4854b0797994decfecad
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: f72f325f98e5f5e0ce769a1110534f94 -> dcfc375dc763cb36441ad533f06255cf
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Timer.cs: 5d31587dd0e79be1af535a20471b81a7 -> f54b6ea9fe9dd32849bba1caae18d062
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 07a9f7531a716f3f6b50b648aed202da -> 9c394d8fe723e0cf08fc8d3a7ec6be1e
+  custom:scripting/monoscript/fileName/MusicControl.cs: d54b7da84118b6a039487bbfb937509f -> 1f92001a2be0ca7bf07dd125d2ce3e02
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ScoreManager.cs: c0d56a7c8e0484a1e234ba15d3819d58 -> 0aafd5dcc77c815445bbfc642eac32dd
+  custom:scripting/monoscript/fileName/PlayerShooting.cs: ef204a0894d7bce6ae205b7316ebb20f -> 4284a38ad4e51bfd3df011c5b667295e
+  custom:scripting/monoscript/fileName/daylight.cs: 31c1741f4709d1b4599b1c5cb4650e78 -> 6290c2fd8e6fe559c70bf6d1b64901de
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.856 seconds
+Refreshing native plugins compatible for Editor in 27.47 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.767 seconds
+Domain Reload Profiling: 4622ms
+	BeginReloadAssembly (345ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (138ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1296ms)
+		LoadAssemblies (669ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (761ms)
+			TypeCache.Refresh (745ms)
+				TypeCache.ScanAssembly (712ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (826ms)
+			ProcessInitializeOnLoadMethodAttributes (429ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 21.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (128.9 KB). Loaded Objects now: 3164.
+Memory consumption went from 238.2 MB to 238.1 MB.
+Total: 18.647425 ms (FindLiveObjects: 0.984281 ms CreateObjectMapping: 0.632702 ms MarkObjects: 16.712906 ms  DeleteObjects: 0.313479 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/RestartButton.cs: ad02150b95cd134ff72c656e0c44c2bb -> c95a3ce1799821ce712be825694325d8
+  custom:scripting/monoscript/fileName/ConversationStart.cs: ad4f6acfe5db78d981c8ed4a88dc5c51 -> 2feb3e6f59710a086fa40372cfb5475f
+  custom:scripting/monoscript/fileName/EnemyManager.cs: 86a22655b04f66df7f689bb2ba32335c -> a5f2ce24d5a536281782526914f0e68f
+  custom:scripting/monoscript/fileName/PlayerHealth.cs: 7738bfb7fe5a1df1bf9e83dff2a273b4 -> 0511697b874ef8cef3e8abbb52103cc8
+  custom:scripting/monoscript/fileName/PickupManager.cs: 83f5a897701fd48419c342aaadb4ccbb -> 64cb3f47ca47a352b2c36ee78f8a2d78
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GDTFadeEffect.cs: dc03fe28317e15a2f3b3eecdb520304b -> 90886b61936ce00f4602413532e8c3f5
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/SpawnManager.cs: 7f1612d1a6a8935b93998a21e37334d4 -> db5d4d2843727fd49b91cf9c31204777
+  custom:scripting/monoscript/fileName/EventManager.cs: 8003cf18b11e6bfb68fa7cf004061361 -> b4932ecbd1aed70f30b5173c637523ad
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 91ef9c9f325d397ef61f3d464eab9156 -> 52a66a877fac1cc64d9467daa6f02200
+  custom:scripting/monoscript/fileName/DialogueMusic.cs: 5970f2c6cdeb080e2d3bfa7b5ac09492 -> 99f182836e91b7f94557007bcef592ff
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MinutesLeft.cs: 97aaa4dae3bf93ce73ba6998c8973414 -> 4037d7e3933e4854b0797994decfecad
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: f72f325f98e5f5e0ce769a1110534f94 -> dcfc375dc763cb36441ad533f06255cf
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Timer.cs: 5d31587dd0e79be1af535a20471b81a7 -> f54b6ea9fe9dd32849bba1caae18d062
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 07a9f7531a716f3f6b50b648aed202da -> 9c394d8fe723e0cf08fc8d3a7ec6be1e
+  custom:scripting/monoscript/fileName/MusicControl.cs: d54b7da84118b6a039487bbfb937509f -> 1f92001a2be0ca7bf07dd125d2ce3e02
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ScoreManager.cs: c0d56a7c8e0484a1e234ba15d3819d58 -> 0aafd5dcc77c815445bbfc642eac32dd
+  custom:scripting/monoscript/fileName/PlayerShooting.cs: ef204a0894d7bce6ae205b7316ebb20f -> 4284a38ad4e51bfd3df011c5b667295e
+  custom:scripting/monoscript/fileName/daylight.cs: 31c1741f4709d1b4599b1c5cb4650e78 -> 6290c2fd8e6fe559c70bf6d1b64901de
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
