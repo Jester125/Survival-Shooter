@@ -24,6 +24,7 @@
 			<destination>{9826b4ac-4e6c-49d0-9785-f118a54ee5b4}</destination>
 			<destination>{f83ec70c-121d-4bf8-8dc5-2a2440008821}</destination>
 			<destination>{38b48f9e-bbb5-4ed8-a693-441f68e0f7b3}</destination>
+			<destination>{a6f3c6db-b5ad-4d11-ace2-202cf06d6013}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{efa4ccf8-66ae-4348-85b1-5bc31bff9f41}" />
@@ -61,6 +62,17 @@
 		</property>
 		<relationship name="automators">
 			<destination>{129a9c36-8ab8-4309-af17-170ad4914835}</destination>
+		</relationship>
+	</object>
+	<object class="CompressorEffect" id="{a6f3c6db-b5ad-4d11-ace2-202cf06d6013}">
+		<property name="threshold">
+			<value>-37.5</value>
+		</property>
+		<property name="releaseTime">
+			<value>780</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{4e221469-120c-48c5-803a-41b16d1c6cf8}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{ade239eb-6f37-4db8-913f-8c4a2ad78ca7}">

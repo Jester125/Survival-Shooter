@@ -5,7 +5,7 @@
 			<value>Hellephant_Hurt</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e0f3592c-2e97-4c6a-8258-8b4530b5de66}</destination>
@@ -90,7 +90,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{5743951e-e647-4f60-b032-790190a4defc}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-9</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5fef66a8-1bb2-4bd7-ac4a-ea5be66e1527}</destination>
@@ -194,6 +194,7 @@
 	<object class="MixerBusEffectChain" id="{5fef66a8-1bb2-4bd7-ac4a-ea5be66e1527}">
 		<relationship name="effects">
 			<destination>{a0d7c70f-7f78-4421-959b-6d88579f0bfd}</destination>
+			<destination>{e5d1f4c2-8eb7-4ed4-81a3-34401fc5fab9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ab619a82-2a48-4fc4-8cb4-abf0b6a412ec}" />
@@ -261,6 +262,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{97ce3f71-1806-48af-8675-c29307a8e68c}" />
 	<object class="MixerBusFader" id="{a0d7c70f-7f78-4421-959b-6d88579f0bfd}" />
+	<object class="SpatialiserEffect" id="{e5d1f4c2-8eb7-4ed4-81a3-34401fc5fab9}">
+		<property name="distanceRolloffType">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{bbfde76e-82d0-41e7-96db-c861c8474ee2}">
 		<property name="position">
 			<value>0</value>

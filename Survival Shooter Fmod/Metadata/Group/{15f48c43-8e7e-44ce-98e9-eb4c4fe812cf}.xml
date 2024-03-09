@@ -29,7 +29,7 @@
 	<object class="Sidechain" id="{34bc735a-2159-437c-a5ca-aa7b1c373b34}" />
 	<object class="MixerSend" id="{ce3c8e08-dc44-431f-acd5-d9046238b805}">
 		<property name="level">
-			<value>-4.5</value>
+			<value>-7</value>
 		</property>
 		<property name="inputFormat">
 			<value>2</value>

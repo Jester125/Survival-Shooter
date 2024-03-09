@@ -55,7 +55,40 @@ public class DialogueMusic : MonoBehaviour
 
     IEnumerator WaitforLoad()
     {
-        yield return new WaitForSeconds(2.2f);
+        yield return new WaitForSeconds(3f);
         Time.timeScale = 0f;
+    }
+
+    public void PlayLine(int line)
+    {
+        if (line == 1)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Dialogue/Lines/Line1");
+        }
+        if (line == 2)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Dialogue/Lines/Line2");
+        }
+        if (line == 3)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Dialogue/Lines/Line3");
+        }
+        if (line == 4)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Dialogue/Lines/Line4");
+        }
+        if (line == 5)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Dialogue/Lines/Line5");
+        }
+        if (line == 6)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Dialogue/Lines/Line6");
+        }
+        if (line == 7)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Dialogue/Lines/Line7");
+        }
+        
     }
 }
