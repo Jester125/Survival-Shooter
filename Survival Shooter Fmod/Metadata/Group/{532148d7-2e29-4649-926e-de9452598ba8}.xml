@@ -47,7 +47,7 @@
 	</object>
 	<object class="CompressorEffect" id="{3665d748-1a71-4fa5-bb03-5cb45fc1494c}">
 		<property name="threshold">
-			<value>-32.5</value>
+			<value>-29.5</value>
 		</property>
 		<property name="releaseTime">
 			<value>560</value>

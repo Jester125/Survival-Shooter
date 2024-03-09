@@ -1,63 +1,34 @@
 ﻿<Properties StartupConfiguration="{3613B104-BF45-4245-6C13-983001731586}|">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e2686e35-c532-4fbb-920f-dd10993484cc" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_CompletedAssets/Scripts/MyScripts/DialogueMusic.cs">
     <Files>
-      <File FileName="Assets/_CompletedAssets/Scripts/Enemy/EnemyMovement.cs" Line="28" Column="10" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Enemy/EnemyHealth.cs" Line="124" Column="46" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Player/PlayerShooting.cs" Line="87" Column="36" />
       <File FileName="Assets/_CompletedAssets/Scripts/Enemy/EnemyAttack.cs" Line="1" Column="1" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Player/PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/_CompletedAssets/Scripts/UI/ConversationStart.cs" Line="1" Column="1" />
-      <File FileName="Assets/CameraMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Managers/MusicControl.cs" Line="71" Column="80" />
-      <File FileName="Assets/Scripts/Enemy/EnemyAttack.cs" Line="31" Column="34" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Player/PlayerHealth.cs" Line="119" Column="37" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Managers/DialogueMusic.cs" Line="38" Column="36" />
-      <File FileName="Assets/GDT-Fade-Effect/GDTFadeEffect.cs" Line="27" Column="35" />
-      <File FileName="Assets/_CompletedAssets/Scripts/UI/Timer.cs" Line="20" Column="37" />
-      <File FileName="Assets/_CompletedAssets/Scripts/UI/EventManager.cs" Line="13" Column="81" />
-      <File FileName="Assets/_CompletedAssets/Scripts/UI/MinutesLeft.cs" Line="26" Column="39" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Managers/daylight.cs" Line="32" Column="30" />
+      <File FileName="Assets/CameraMovement.cs" />
+      <File FileName="Assets/Scripts/Enemy/EnemyAttack.cs" />
       <File FileName="Assets/Scripts/Managers/GameOverManager.cs" Line="21" Column="41" />
       <File FileName="Assets/Scripts/Managers/ScoreManager.cs" Line="7" Column="29" />
-      <File FileName="Assets/_CompletedAssets/Scripts/UI/RestartButton.cs" Line="27" Column="35" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Managers/SpawnManager.cs" Line="75" Column="75" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Managers/PickupManager.cs" Line="15" Column="84" />
-      <File FileName="Assets/_CompletedAssets/Scripts/Managers/ScoreManager.cs" Line="19" Column="1" />
-      <File FileName="Assets/GDT-Fade-Effect/FadeControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/GDT-Fade-Effect/FadeControl.cs" Line="21" Column="40" />
+      <File FileName="Assets/_CompletedAssets/Scripts/MyScripts/PickupManager.cs" Line="15" Column="84" />
+      <File FileName="Assets/_CompletedAssets/Scripts/MyScripts/MusicControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/_CompletedAssets/Scripts/MyScripts/UI/Timer.cs" Line="37" Column="1" />
+      <File FileName="Assets/_CompletedAssets/Scripts/MyScripts/UI/MinutesLeft.cs" Line="22" Column="26" />
+      <File FileName="Assets/_CompletedAssets/Scripts/MyScripts/DialogueMusic.cs" Line="62" Column="35" />
+      <File FileName="Assets/_CompletedAssets/Scripts/MyScripts/Player/PlayerHealth.cs" Line="79" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="fmodstudio10000unity-survival-shooter-project 2 copy">
-            <Node name="Assets" expanded="True">
-              <Node name="GDT-Fade-Effect" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="Enemy" expanded="True" />
-                <Node name="Managers" expanded="True" />
-                <Node name="Player" expanded="True" />
-              </Node>
-              <Node name="_CompletedAssets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="Enemy" expanded="True" />
-                  <Node name="Helpers" expanded="True" />
-                  <Node name="Managers" expanded="True" />
-                  <Node name="MyScripts" expanded="True">
-                    <Node name="Player" expanded="True" />
-                    <Node name="UI" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="74206904-a4b8-4448-8614-eaea80d0dfc8" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

@@ -55,7 +55,7 @@ public class DialogueMusic : MonoBehaviour
 
     IEnumerator WaitforLoad()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(3f); 
         Time.timeScale = 0f;
     }
 
